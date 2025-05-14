@@ -1,0 +1,25 @@
+[project]
+name = "electronics-store"
+version = "0.1.0"
+description = "A simple electronics store management system"
+authors = [
+    {name = "olegm",email = "olegmahmutov908@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+name = "electronics-store"
+version = "0.1.0"
+description = "A simple electronics store management system"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
