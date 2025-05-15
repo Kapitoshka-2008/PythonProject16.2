@@ -1,4 +1,4 @@
-from models import Product, Category
+from src.models import Product, Category
 
 if __name__ == '__main__':
     product1 = Product("Samsung Galaxy S23 Ultra", "256GB, Серый цвет, 200MP камера", 180000.0, 5)
@@ -41,4 +41,12 @@ if __name__ == '__main__':
     print(category2.products)
 
     print(Category.category_count)
-    print(Category.product_count) 
+    print(Category.product_count)
+
+
+
+
+
+
+
+
